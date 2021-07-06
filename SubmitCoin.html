@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/submitPage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">      
     <!--===============================================================================================-->
     <script src="https://js.pusher.com/4.0/pusher.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!--===============================================================================================-->
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <header>
@@ -22,20 +23,91 @@
          <a href=" " class="NewsButton"> <i class="fa fa-newspaper-o" style="font-size:16px"> <span style="font-size: 20px; color: white; font-weight: bold; ">News</span> </i> </a>   
          <a href="SubmitCoin.html" class="submitToken"> Submit Coin </a>
      
-    <select class="loginButton" id="foo">
-        <option disabled="" selected="" value=""> Account</option>
-        <option value="login.html"> Login </option>
-        <option value="register.html"> Register </option>
-        <option value=" "> Watchlist </option>
-    </select>
+          <select class="loginButton" id="foo">
+           <option disabled="" selected="" value=""> Account</option>
+           <option value="login.html"> Login </option>
+           <option value="register.html"> Register </option>
+           <option value=" "> Watchlist </option>
+          </select>
      
        </nav>
-    
+         
 <div class="line"></div><br>
-    
+
      </header>
 
+<div class="paddingBorder">
+    <form>
+        <div class="row" style="text-align: left;">
+            <div class="col-md-6 col-sm-12">
+                <h4>Coin informations</h4>
+            
+            <div>
+                <label>Name <span class="text-Required">Required</span></label>
+                <input class="form-control" placeholder=" Ethereum "></input>
+            </div><br>
+            <div>
+                <label> Symbol <span class="text-Required">Required</span></label>
+                <input class="form-control" placeholder="ETH "></input>
+            </div><br>
+            <div class="form-group">
+                <label class="CoinForm_FormLabel__CiWCA">Description</label>
+                <textarea  rows="3" maxlength="1000" class="form-control" placeholder="Ex: Bitcoin is a decentralized digital currency">
 
-     
-</body>
-</html>
+                </textarea></div><br>
+            <div>
+                <label>Price</label>
+                <input class="form-control" placeholder="$    Ex:  10"></input>
+            </div><br>
+            <div>
+                <label>Market cap</label>
+                <input class="form-control" placeholder="$    Ex:  215,000,00"></input>
+            </div><br>
+            <div>
+                <label>Logo</label>
+                <input class="form-control" placeholder="Ex:  https://ibb.co/logo.png"></input>
+            </div><br>
+            <div class="form-group">
+                <label class="CoinForm_FormLabel__CiWCA">Launch date</label>
+                <span class="text-Required">Required</span>
+                <input required="" type="datetime-local" class="form-control">
+            </div>
+
+           
+                </div>
+               
+             </form>
+            <div class="col-md-6 col-sm-12" style="margin-top: -1px ;">
+                <h4> Coin contracts </h4>
+                <label>Network/Chain</label>
+                <select class="form-control" >
+                    <option> Binance Smart Chain (BSC) </option>
+                    <option> Ethereum (ETH) </option>
+                    <option> Tron (TRX) </option>
+                    <option> Polygon (MATUC)</option>
+                </select>
+                <div class="form">
+                <h4>Additional informations</h4>
+                <textarea  placeholder="Other links, other blockchain contracts or anything else you would like to add to your coin request" rows="3" maxlength="1000" class="form-control"> </textarea></div>
+               
+<br><br><br>    <h4> Coin links </h4>
+
+                <div class="form-group"><br>
+                    <label> Website <span class="text-Required">Required</span></label>
+                        <input class="form-control" placeholder="Ex: https://www.Example.com "></input></div>
+
+                <div class="form-group" style="margin-top: 23px ;">
+                    <label>Telegram</label>
+                    
+                        <input class="form-control" placeholder="Ex: https://t.me/example"></input></div>
+
+                <div class="form-group" style="margin-top: 23px ;">
+                    <label>Twitter</label>
+                        <input class="form-control" placeholder="Ex: https://twitter.com/example"></input></div>
+
+                <a href=" " class="submitButton">Submit</a>        
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
