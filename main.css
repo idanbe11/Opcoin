@@ -1,0 +1,200 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: rgb(224, 224, 224);
+}
+  /*--- LOGO navigation bar ---*/
+  h2 {
+    color: white;
+}
+
+  /*--- navigation bar ---*/
+  .navbar {
+    background: #000000;
+  }
+     
+    /*--- navigation bar sell page ---*/
+ 
+  span{
+      color:green;
+  }
+
+/* Line under the Navbar*/
+
+.line {
+  background-color: aliceblue;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.a {
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  padding: 10px 10px 10px 60vw;
+  border-radius: 4px 4px 4px 4px;
+}
+
+/* Slide text*/
+
+.slidetext {
+  position: absolute;
+  top: 155px;
+  right: 200px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+/* advertise link under Navbar*/
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.Advertise {
+  position: absolute;
+  margin-left: 1730px;
+  font-size: 21px;
+}
+
+ /* NavBar Links*/
+
+.loginButton {
+  position: absolute;
+  background-color: rgba(10, 141, 27, 0.91);
+  font-weight: bold;
+  color: white;
+  margin-left: 85%;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 7px 15px;
+}
+.loginButton:hover{
+  background-color: rgb(31, 160, 31);
+  color: white;
+}
+
+.NewsButton {
+  position: absolute;
+  background-color: rgba(10, 141, 27, 0.91);
+  font-weight: bold;
+  color: white;
+  margin-left: 10%;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 7px 15px;
+}
+.NewsButton:hover{
+  background-color: rgb(31, 160, 31);
+  color: white;
+}
+
+.submitToken {
+  position: absolute;
+  background-color: rgba(10, 141, 27, 0.91);
+  font-weight: bold;
+  color: white;
+  margin-left: 75%;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 7px 15px;
+}
+.submitToken:hover{
+  background-color: rgb(31, 160, 31);
+  color: white;
+  text-decoration: none;
+}
+
+    /*.table_Landing table of promo and tokens  */
+
+.table_Landing {
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  margin: -70px 220px -42px 300px;
+  border-radius: 8px;
+}
+
+
+td, th {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+td, th {
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-image: initial;
+  padding: 28px 18px 18px 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.voteButton {
+  background-color: white;
+  width: 80px;
+  height: 40px;
+  margin-left: -15px;
+  border-color: rgb(11, 182, 11);
+  border-radius: 4px;
+}
+
+    /* Contact link between the tables */
+
+.Contactus {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1465px;
+  font-size: 18px;
+}
+
+    /*Title of table  */
+
+.titleTabs {
+  font-size: 1.5rem;
+  display: flex;
+  margin-left: 20vw;
+  margin-top: 150px;
+}
+
+
+.icons {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+span {
+  color: rgb(91, 167, 113);
+}
+
+    /*Search bar in the Table  */
+
+input[type="text"] {
+  width: 104px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: white;
+  background-image: url(searchicon.png);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  border-radius: 4px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 10px;
+  transition: width 0.4s ease-in-out 0s;
+}
+input[type=text]:focus {
+  width: 20%;
+}
+button, input {
+  overflow: visible;
+}

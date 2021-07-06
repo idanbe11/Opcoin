@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+  <html lang="he">
+    <head>       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">      
+        <!--===============================================================================================-->
+        <script src="https://js.pusher.com/4.0/pusher.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!--===============================================================================================-->
+        <title>Home Page</title> 
+ </head>
+ <body>
+
+ <header>
+    <nav class="navbar navbar-expand-md">
+     <a href="index.html" style="text-decoration: none;"><h2>OP<span>Coin</span></h2></a> 
+     <a href=" " class="NewsButton"> <i class="fa fa-newspaper-o" style="font-size:16px"> <span style="font-size: 20px; color: white; font-weight: bold; ">News</span> </i> </a>   
+     <a href="SubmitCoin.html" class="submitToken"> Submit Coin </a>
+ 
+      <select class="loginButton" id="foo">
+       <option disabled="" selected="" value=""> Account</option>
+       <option value="login.html"> Login </option>
+       <option value="register.html"> Register </option>
+       <option value=" "> Watchlist </option>
+      </select>
+ 
+   </nav>
+
+ <div class="line"></div><br>
+
+ </header>
+
+ <a href="contact.html" class="Advertise">Advertise with us! </a>
+ <br>
+
+ <div class="columnsSlide" style="display: block;">
+    <img class="a" src="imgSlide/white.jpg">
+      <h1 class="slidetext"> Ads 1</h1>
+</div>
+
+<div style="display: block;">
+    <img class="a" src="imgSlide/white.jpg">
+        <h1 class="slidetext">Ads 2</h1>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<div default="" role="tabpanel" aria-hidden="false" class="tab-pane">
+  <div class="table_Landing">
+    <h3 style="color: rgb(0, 0, 0); margin-top: 15px; margin-left: 8px; position: absolute; font-size: 32px; ">PROMOTED COINS</h3>
+        <div style="height: 70px;"></div>
+<table>
+    <tbody><tr>
+        <th style="width: 100px;">Icons</th>
+        <th style="width: 290px;">Name</th>
+        <th>1h</th>
+        <th>Market Cap</th>
+        <th>Time since launch</th>
+        <th style="width: 120px;">Votes</th>
+      </tr>
+      <tr>
+        <td> <img class="icons" src="imgSlide/moonery.png">  </td>
+        <td> sdadasdsad </td>
+        <td>  - </td>
+        <td> $3,085,305 </td>
+        <td> 25 days </td>
+        <td><button type="button" class="voteButton" id="vote" onclick="onClick()"> 0</button></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><button type="button" class="voteButton" id="vote-1" data-vote="1"> 0 </button> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><button type="button" class="voteButton" id="vote-2" data-vote="2"> 0 </button> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><button type="button" class="voteButton"> 0 </button> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><button type="button" class="voteButton"> 0 </button> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><button type="button" class="voteButton"> 0 </button> </td>
+      </tr>
+    </tbody></table>
+    
+  </div>
+</div>
+
+<a href="contact.html" class="Contactus">Your coin here? Contact us!</a> 
+  <div class="titleTabs" role="tablist">
+    <a href="/" class="nav-link"> 
+        <span>Today's best</span>
+    </a>
+
+    <a href="/" class="nav-link">
+        <span>All Time Best</span>
+    </a>  
+  </div>
+  
+  <div default="" role="tabpanel" aria-hidden="false" class="tab-pane">
+    <div class="table_Landing">
+        <div class="mw-0 w-100 row" style="height: 40px;"></div>
+        <div class="px-0 col-sm-10 col-9"></div>
+        <div class="mx-0 w-100 row" style="height: 40px;"></div>
+        <div class="px-0 align-self-center Landing_ColFontSize__1Ma9T col"></div>
+
+  <span style="width: 290px;"> 
+    <input type="text" name="search" placeholder="Search..">
+  
+  </span>
+
+  <table>
+    <tbody><tr>
+      </tr>
+    <tr>
+      <th style="width: 100px;">Icons</th>
+      <th style="width: 290px;">Name</th>
+      <th>1h</th>
+      <th>Market Cap</th>
+      <th>Time since launch</th>
+      <th style="width: 120px;">Votes</th>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td><button type="button" class="voteButton" id="clicks" onclick="onClick()"> 0</button></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td><button type="button" class="voteButton" id="clicks" onclick="onClick()"> 0</button></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td><button type="button" class="voteButton" id="clicks" onclick="onClick()"> 0</button></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td><button type="button" class="voteButton" id="clicks" onclick="onClick()"> 0</button></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td><button type="button" class="voteButton" id="clicks" onclick="onClick()"> 0</button></td>
+    </tr>
+      <tr><td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td><button type="button" class="voteButton" id="clicks" onclick="onClick()"> 0</button></td>
+    </tr>
+  </tbody>
+</table>
+  
+  </div>
+</div>
+   
+  <script src="js/main.js"></script>
+        
+</body>
+</html>
