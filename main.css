@@ -1,8 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background: rgb(224, 224, 224);
-}
+  background-color: #f9faff;}
   /*--- LOGO navigation bar ---*/
   h2 {
     color: white;
@@ -44,6 +43,7 @@ body {
 img {
   vertical-align: middle;
   border-style: none;
+  
 }
 /* advertise link under Navbar*/
 
@@ -114,6 +114,8 @@ a {
   background-color: rgb(255, 255, 255);
   margin: -70px 220px -42px 300px;
   border-radius: 8px;
+  box-shadow: 0 3px 5px 0 rgb(154 160 185 / 5%), 0 10px 20px 0 rgb(166 173 201 / 20%);
+
 }
 
 
