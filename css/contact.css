@@ -1,0 +1,177 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    background-color: #f9faff;
+}
+
+._1ciRc-heading {
+    padding-top: 82px;
+}
+
+.ALlI_-textStyle {
+    text-align: center;
+}
+
+._3NOJh-subtitle, ._315tD-title {
+    display: block;
+    font-family: AkkuratPro,sans-serif;
+}
+
+._315tD-title {
+    color: #2b2d38;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -.2px;
+    line-height: 54px;
+    margin-bottom: 8px;
+}
+
+._3NOJh-subtitle {
+    color: #3b3e4d;
+    font-size: 21px;
+    letter-spacing: .1px;
+    line-height: 36px;
+    margin-bottom: 58px;
+}
+
+._3BqRm-details, ._3GXkR-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+._2YBlX-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgb(154 160 185 / 5%), 0 10px 20px 0 rgb(166 173 201 / 20%);
+    font-family: AkkuratPro,sans-serif;
+    margin-bottom: 92px;
+    width: 100%;
+}
+
+
+
+._3IsMk-leftCard , ._4DNSY-rightCard {
+    border-top: 9px solid rgb(31, 160, 31);
+    order: 1;
+}
+
+.midButton{
+    background: #15c39a;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 18px;
+    margin-left: -96px;
+    position: absolute;
+}
+.midButton:hover{
+    background-color: #4fdbbb;
+    text-decoration: none;
+    color: white;
+}
+.rightButton:hover{
+    border-color: rgb(106, 202, 106);
+    text-decoration: none;
+    color: rgb(106, 202, 106);
+}
+.leftButton:hover{
+    border-color: rgb(106, 202, 106);
+    text-decoration: none;
+    color: rgb(106, 202, 106);
+
+}
+.leftButton {
+    border: 1px solid rgb(31, 160, 31);
+    color: rgb(31, 160, 31);
+    padding: 15px 20px;
+    font-size: 14px;
+    position:absolute;
+    margin-top: 15px;
+    margin-left: -75px;
+    border-radius: 100px;
+
+
+}
+.rightButton{
+    border: 1px solid rgb(53, 192, 53);
+    color: rgb(31, 160, 31);
+    padding: 15px 20px;
+    font-size: 14px;
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 100px;
+
+}
+._3X-81-mainCard {
+    border-top: 9px solid #15c39a;
+    flex-grow: 0.1;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 345px;
+    order: 2;
+    padding: 75px 0 120px;
+
+}
+
+
+._1OGER-mainTitle, ._3qUJV-mainSub {
+    padding-left: 55px;
+}
+
+._3IsMk-leftCard, ._4DNSY-rightCard {
+    margin-top: 26px;
+    max-width: 315px;
+    padding: 52px 0 56px;
+}
+._4DNSY-rightCard{
+    margin-left: 800px;
+    position: absolute;
+    
+}
+._3IsMk-leftCard {
+    margin-left: -800px;
+    position: absolute;
+}
+
+.lecJU-textSub {
+    color: #8189a9;
+    font-size: 18px;
+    height: 125px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-bottom: 65px;
+    text-align: left;
+}
+
+._1u1GJ-button, ._2YBlX-card {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+
+._1-HDE-leftTitle, ._1JEmA-leftSub, ._3MSWu-rightSub, ._6Fr4f-rightTitle {
+    padding-left: 40px;
+}
+
+.Miy5u-textTitle {
+    color: #2b2d38;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+
+
+
+
