@@ -1,0 +1,120 @@
+.containerCoin{
+    padding: 70px 50px 300px 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 5px 0 rgb(154 160 185 / 5%), 0 10px 20px 0 rgb(166 173 201 / 20%);
+    border-radius: 5px;
+}
+
+.Coin_Description{
+    margin: 10px 10px 10px 0;
+    font-size: .9rem;
+    text-align: left;
+    white-space: pre-wrap;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.Logo{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 1rem;
+    margin-top: -60px;
+}
+h1{
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.listing-header{
+    display: flex;
+    align-items: center;
+}
+
+.symbolTitle{
+    border: 3px solid  #15c39a;
+}
+.vote_Button{
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border-color: rgb(11, 182, 11);
+    border-radius: 4px;
+}
+
+.Coin_AddressContainer{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin: 10px 0 0;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    background-color: rgb(104, 250, 182);
+
+}
+
+.Coin_AddressTitle{
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.Coin_Address{
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+
+.linksInfo{
+    padding: 15px;
+    overflow-wrap: break-word;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 1.3rem;
+    background: rgb(255, 255, 255) !important;
+}
+
+.links{
+    font-size: 14px;
+    color: cornflowerblue;
+    text-decoration: none;
+
+}
+
+.Coin_global {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    min-width: 325px;
+}
+.Coin_RightSide {
+    width: 25%;
+}
+
+.Coin_TopRow__QYik5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.Coin_LeftSide__QGYZ1 {
+    width: calc(75% - 1.3rem);
+    margin-right: 1.3rem;
+    height: 100%;
+}
